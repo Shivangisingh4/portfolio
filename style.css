@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(4, 4, 96);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(18, 102, 159);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: rgb(163, 107, 216);
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column; /* stack image and text vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.hero-image img {
+    width: 200px;          /* set fixed width */
+    height: 200px;         /* set fixed height */
+    border-radius: 50%;    /* makes it a perfect circle */
+    object-fit: cover;     /* ensures image fills the circle without distortion */
+    margin-bottom: 30px;   /* space between image and text */
+    border: 3px solid rgb(163, 107, 216); /* optional: add border for style */
+}
+
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-weight: normal;
+}
+
+.hero .accent {
+    color: rgb(163, 107, 216);
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    background-color: rgb(71, 13, 138);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.hero-buttons .btn:hover {
+    opacity: 0.9;
+}
+
+
+/* Sections */
+.section {
+    padding: 70px 15%;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: rgb(163, 107, 216);
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-list {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.project-card {
+    background-color: rgb(18, 102, 159);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.project-card a {
+    color: rgb(163, 107, 216);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Contact */
+.contact-links {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-links li {
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    color: rgb(163, 107, 216);
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(18, 102, 159);
+    text-align: center;
+    padding: 15px;
+}
