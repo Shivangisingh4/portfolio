@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shivangi Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h2 class="logo">Shivangi Singh</h2>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-image">
+        <img src="img.jpeg" alt="Profile Image">
+    </div>
+    <div class="hero-text">
+        <h1>Hello, I'm <span class="accent">Shivangi Singh</span></h1>
+        <h2>AI-ML Enthusiast | Competitive Programming | DSA</h2>
+        <h2> <span id="typing"></span></h2>
+
+        <div class="hero-buttons">
+            <a href="Shivangi Singh_Btech_3rd year_resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am a B.Tech Computer Science and Engineering student at IET Lucknow with a strong
+        interest in Artificial Intelligence, Machine Learning, Data Structures,
+        and Competitive Programming. I enjoy building intelligent systems and
+        continuously improving my problem-solving abilities.  
+        <br><br>
+        <strong>Hobbies:</strong> Playing guitar and singing.
+    </p> 
+    <p>If you'd like to know more about me, please check out my</p>
+    <button onclick="scrollToProjects()">Projects</button>
+    <p> and social media profiles</p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills-list">
+        <li><b>Languages:</b> Java, C++, Python, C</li>
+            <li><b>AI / ML:</b> Machine Learning fundamentals, Python</li>
+            <li><b>Core CS:</b> DSA, DBMS, OS, CN</li>
+            <li><b>Tools:</b> VS Code, Jupyter Notebook, Git & GitHub</li>
+    </ul>
+</section>
+
+<!-- Projects / Achievements Section -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects & Achievements</h2>
+
+    <!-- Example Project -->
+    <div class="project-card">
+        <h3>Student Performance Prediction</h3>
+        <p>
+            Machine learning model to predict student academic performance
+            using historical data.
+        </p>
+        <a href="https://github.com/your-github/student-performance-prediction" target="_blank">
+            View on GitHub
+        </a>
+    </div>
+
+    <!-- Achievements & Activities -->
+    <div class="project-card">
+        <h3>Achievements & Activities</h3>
+        <ul>
+            <li>Head Girl of Parmath Social Club</li>
+            <li>Organized educational and social initiatives</li>
+            <li>Gained leadership and teamwork experience</li>
+        </ul>
+    </div>
+
+    <!-- DSA & Competitive Programming -->
+    <div class="project-card">
+        <h3>DSA & Competitive Programming Practice</h3>
+        <p>
+            Solving algorithmic problems using C++ and Java to improve problem-solving efficiency.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <p>You can reach me via email or connect with me on LinkedIn:</p>
+
+    <ul class="contact-links">
+        <li>Email: <a href="mailto:your-email@example.com" class="contact-link">your-email@example.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="contact-link">linkedin.com/in/your-linkedin</a></li>
+    </ul>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2026 Shivangi Singh</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
